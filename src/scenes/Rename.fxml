@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane stylesheets="@MainStyle.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RenameController">
+   <center>
+      <AnchorPane prefHeight="306.0" prefWidth="471.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="confirmButton" layoutX="182.0" layoutY="233.0" mnemonicParsing="false" onAction="#confirm" onKeyPressed="#confirm" prefHeight="27.0" prefWidth="84.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="111.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/confiem.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <TextField fx:id="name" layoutX="64.0" layoutY="143.0" prefHeight="72.0" prefWidth="344.0" styleClass="textfield">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="50.0" fitWidth="389.0" layoutX="41.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/160542706634120.png" />
+               </image></ImageView>
+            <Label fx:id="label" layoutX="115.0" layoutY="88.0" prefHeight="43.0" prefWidth="241.0" textFill="#904444" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

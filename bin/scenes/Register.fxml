@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane blendMode="SRC_ATOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="878.0" stylesheets="@Login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RegisterController">
+   <children>
+      <PasswordField fx:id="password1" layoutX="375.0" layoutY="226.0" promptText="password" />
+      <Button id="loginButton" fx:id="signupButton" layoutX="357.0" layoutY="512.0" mnemonicParsing="false" onAction="#register" prefHeight="67.0" prefWidth="142.0" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Console" size="33.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="92.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/160998001993389.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <PasswordField fx:id="password2" layoutX="375.0" layoutY="304.0" promptText="password again" />
+      <Label fx:id="label" layoutX="305.0" layoutY="448.0" prefHeight="48.0" prefWidth="408.0" textFill="RED" />
+      <TextField fx:id="userName" layoutX="375.0" layoutY="146.0" promptText="your username" />
+      <TextField fx:id="telephoneNumber" layoutX="372.0" layoutY="381.0" promptText="your telephone number" />
+      <ImageView fitHeight="40.0" fitWidth="142.0" layoutX="203.0" layoutY="150.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160997971824579.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="114.0" layoutX="245.0" layoutY="231.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160997978289919.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="265.0" layoutX="112.0" layoutY="309.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160998084937717.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="211.0" layoutX="159.0" layoutY="386.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160998130994726.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="322.0" layoutX="278.0" layoutY="38.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160998160288728.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

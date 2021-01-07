@@ -1,0 +1,63 @@
+
+
+.root {
+     -fx-background-color: #F7F7F7;
+}
+.button {
+    -fx-text-fill: black;
+    -fx-background-color: #FFFAFA;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+   	-fx-background-radius: 50;
+   	-fx-border-radius: 50;
+}
+.listview{
+	-fx-text-fill: #7D3519;
+	-fx-background-color: #E6DFDB;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10; 
+}
+.ll{
+	-fx-text-fill: #7A6F63;
+	-fx-background-color: #FDFEFD;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10; 
+   	-fx-font-family: "Microsoft YaHei";
+   	-fx-font-size: 32;
+}
+.ll1{
+	-fx-text-fill: #7A6F63;
+	-fx-background-color: #F7F7F7;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10; 
+   	-fx-font-family: "Microsoft YaHei";
+   	-fx-font-size: 32;
+}
+.tt{
+	-fx-text-fill: #7D3519;
+	-fx-background-color: #E6DFDB;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10; 
+   	-fx-font-family: "Microsoft YaHei";
+   	-fx-font-size: 32;
+}
+.button:hover {
+    -fx-background-color: #DCDCDC;
+}
+.list-cell:even {
+    -fx-background-color: 	#fcfbfa;
+    -fx-font-family: "Microsoft YaHei";
+    -fx-text-fill: #64513c;
+    -fx-font-size: 30;
+}
+.list-cell:odd {
+    -fx-background-color: 	#fcf7f0;
+    -fx-font-family: "Microsoft YaHei";
+    -fx-text-fill: #64513c;
+    -fx-font-size: 30;
+}
+.list-cell:selected {
+    -fx-background-color: #e8d3b5;
+    -fx-font-family: "Microsoft YaHei";
+    -fx-text-fill: #64513c;
+    -fx-font-size: 30;
+}

@@ -1,0 +1,60 @@
+
+
+.root {
+     -fx-background-color: #FFFFF0;
+}
+.button {
+    -fx-text-fill: black;
+    -fx-background-color: #FFFAFA;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+   	-fx-background-radius: 50;
+   	-fx-border-radius: 50;
+}
+.table {
+    -fx-text-fill: black;
+    -fx-background-color: #FFFAFA;
+    -fx-background-radius: 50;
+   	-fx-border-radius: 50;
+}
+.caltitle{
+	-fx-text-fill: #7D3519;
+	-fx-background-color: #E6DFDB;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10;
+   	-fx-font-family: "Consolas";
+}
+.cal{
+   	-fx-text-fill: #9C847C;
+	-fx-background-color: #FAFAFA;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10;
+   	-fx-font-family: "Consolas";
+}
+.cal1{
+   	-fx-text-fill: #9C847C;
+	-fx-background-color: #F0F0F0;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10;
+   	-fx-font-family: "Consolas";
+}
+.textfield{
+	-fx-text-fill: #7D3519;
+	-fx-background-color: #E6DFDB;
+    -fx-background-radius: 10;
+   	-fx-border-radius: 10;
+}
+.button:hover {
+    -fx-background-color: #DCDCDC;
+}
+.line{
+	-fx-background-radius: 10;
+   	-fx-border-radius: 10;
+}
+.choicebox{
+	-fx-text-fill: black;
+    -fx-background-color: #FFFAFA;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+   	-fx-background-radius: 50;
+   	-fx-border-radius: 50;
+   	-fx-font-family: "KaiTi";
+}

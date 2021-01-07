@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="942.0" maxWidth="782.0" minHeight="734.0" minWidth="593.0" prefHeight="942.0" prefWidth="782.0" stylesheets="@ViewCards.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ViewCardsController">
+   <children>
+      <Button layoutX="48.0" layoutY="828.0" mnemonicParsing="false" onAction="#newACard" prefHeight="78.0" prefWidth="188.0">
+         <graphic>
+            <ImageView fitHeight="63.0" fitWidth="161.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/1605691155_666692.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="541.0" layoutY="828.0" mnemonicParsing="false" onAction="#deleteCards" prefHeight="78.0" prefWidth="188.0">
+         <graphic>
+            <ImageView fitHeight="63.0" fitWidth="161.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/1605691289_188248.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ListView fx:id="cards" fixedCellSize="50.0" layoutX="51.0" layoutY="48.0" prefHeight="758.0" prefWidth="681.0" styleClass="listview" />
+      <Button layoutX="295.0" layoutY="828.0" mnemonicParsing="false" onAction="#details" prefHeight="78.0" prefWidth="188.0">
+         <graphic>
+            <ImageView fitHeight="63.0" fitWidth="161.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/1605697711_589817.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</Pane>

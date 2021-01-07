@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane blendMode="SRC_ATOP" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="878.0" stylesheets="@Login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LoginController">
+   <children>
+      <PasswordField fx:id="passwordField" layoutX="368.0" layoutY="353.0" onAction="#login" promptText="password" />
+      <TextField fx:id="userName" layoutX="368.0" layoutY="217.0" promptText="your user name" />
+      <Button id="loginButton" fx:id="loginButton" layoutX="157.0" layoutY="506.0" mnemonicParsing="false" onAction="#login" prefHeight="69.0" prefWidth="137.0" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Console" size="33.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="96.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/160998015667866.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="loginButton" fx:id="registerButton" layoutX="369.0" layoutY="506.0" mnemonicParsing="false" onAction="#register" prefHeight="69.0" prefWidth="140.0" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Console" size="33.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="49.0" fitWidth="94.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/160998001993389.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="label" layoutX="243.0" layoutY="423.0" prefHeight="59.0" prefWidth="408.0" textAlignment="CENTER" textFill="RED">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+      <Button id="loginButton" layoutX="576.0" layoutY="506.0" mnemonicParsing="false" onAction="#findBackPassword" prefHeight="69.0" prefWidth="188.0" textAlignment="CENTER">
+         <font>
+            <Font name="Lucida Console" size="21.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="41.0" fitWidth="164.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/160997921512203.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="87.0" layoutY="23.0" opacity="0.7" text="Take notes in your OWN way" textFill="#7c6a50">
+         <font>
+            <Font name="Comic Sans MS" size="52.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="212.0" fitWidth="208.0" layoutX="347.0" layoutY="89.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160508306532102.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="175.0" layoutX="122.0" layoutY="217.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160997971824579.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="175.0" layoutX="174.0" layoutY="353.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Images/160997978289919.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

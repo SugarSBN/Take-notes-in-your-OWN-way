@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane maxHeight="942.0" maxWidth="782.0" minHeight="430.0" minWidth="593.0" prefHeight="871.0" prefWidth="744.0" stylesheets="@ViewCards.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ReviewController">
+   <children>
+      <Group fx:id="front" layoutX="237.0" layoutY="745.0" visible="false">
+         <children>
+            <Button mnemonicParsing="false" onAction="#check" prefHeight="0.0" prefWidth="103.0">
+               <graphic>
+                  <ImageView fitHeight="60.0" fitWidth="215.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/1606129934_584233.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children></Group>
+      <Label fx:id="label" layoutX="117.0" layoutY="23.0" prefHeight="91.0" prefWidth="511.0" styleClass="ll1" text="Label" />
+      <Button fx:id="fButton" layoutX="89.0" layoutY="745.0" mnemonicParsing="false" onAction="#familiar" prefHeight="63.0" prefWidth="134.0">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="114.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/1606129523_131564.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="vButton" layoutX="289.0" layoutY="745.0" mnemonicParsing="false" onAction="#vague" prefHeight="63.0" prefWidth="134.0">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="114.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/1606129657_138724.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="tButton" layoutX="489.0" layoutY="745.0" mnemonicParsing="false" onAction="#forgotten" prefHeight="63.0" prefWidth="134.0">
+         <graphic>
+            <ImageView fitHeight="50.0" fitWidth="114.0" opacity="0.9" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/1606129755_977726.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <WebView fx:id="mainText" layoutX="65.0" layoutY="103.0" prefHeight="613.0" prefWidth="616.0" />
+   </children>
+</Pane>

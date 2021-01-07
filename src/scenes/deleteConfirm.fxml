@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane stylesheets="@Login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DeleteConfirmController">
+   <center>
+      <AnchorPane prefHeight="230.0" prefWidth="530.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="confirmButton" layoutX="89.0" layoutY="145.0" mnemonicParsing="false" onAction="#confirm" onKeyPressed="#confirm" prefHeight="43.0" prefWidth="109.0">
+               <graphic>
+                  <ImageView fitHeight="33.0" fitWidth="72.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/confiem.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <ImageView fitHeight="182.0" fitWidth="469.0" layoutX="37.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Images/160542979752675.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="325.0" layoutY="146.0" mnemonicParsing="false" onAction="#cancel" onKeyPressed="#confirm" prefHeight="43.0" prefWidth="109.0">
+               <graphic>
+                  <ImageView fitHeight="32.0" fitWidth="65.0" opacity="0.7" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../Images/160543000020381.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
